@@ -8,6 +8,7 @@ the [CreateJS Code Suites](http://createjs.com) to interface with the canvas.
 
 ## TODO
 * Set up [Gratipay](https://gratipay.com/)
+* Set up [Gitter](https://gitter.im)
 * Set up travis to push the build folder for all commits with tags to the gh-pages branch
 * Get Gulp to compile coffeescript, minimize it, minimize the css, unit testing, and add linting process.
 * Start on CreateJS
