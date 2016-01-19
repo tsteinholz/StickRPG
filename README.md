@@ -1,4 +1,4 @@
 # StickRPG [![Build Status](https://travis-ci.org/tsteinholz/StickRPG.svg?branch=master)](https://travis-ci.org/tsteinholz/StickRPG) [![Dependencies Status](https://david-dm.org/tsteinholz/stickrpg.svg)](https://david-dm.org/tsteinholz/stickrpg) [![Dependencies Status](https://david-dm.org/tsteinholz/stickrpg/dev-status.svg)](https://david-dm.org/tsteinholz/stickrpg) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/stickrpg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-A clean room implementation of "Stick RPG Complete" by XGen Studios.
+A [clean room](https://en.wikipedia.org/wiki/Clean_room_design) implementation of [Stick RPG Complete](http://www.xgenstudios.com/game.php?keyword=stickrpg). This implementation will be under the MIT License for non-profit purposes. This game is written for in mostly coffeescript which is compiled down to javascript via gulp on travis ci. We use the [CreateJS Code Suites](http://createjs.com) to interface with flash/html5/webgl/etc.
 
