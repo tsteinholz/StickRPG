@@ -7,7 +7,7 @@ var uglify = require('gulp-uglify');
 var DEST = 'build/';
 
 gulp.task('default', function() {
-  return gulp.src('test.js')
+  return gulp.src('src/test.js')
     // This will output the non-minified version
     .pipe(gulp.dest(DEST))
     // This will minify and rename to foo.min.js
