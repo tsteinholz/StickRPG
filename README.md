@@ -9,7 +9,6 @@ You will be able to play StickRPG [here](http://tsteinholz.github.io/StickRPG/).
 for free of course.
 
 ## TODO
-* Set up [Gratipay](https://gratipay.com/)
 * Set up travis to push the build folder for all commits with tags to the gh-pages branch
 * Get Gulp to compile coffeescript, minimize it, minimize the css, unit testing, and add linting process.
 * Start on CreateJS
