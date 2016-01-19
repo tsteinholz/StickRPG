@@ -5,6 +5,8 @@ A [clean room](https://en.wikipedia.org/wiki/Clean_room_design) implementation o
 implementation will be under the MIT License. This game is written for in mostly
 coffeescript which is compiled down to javascript via gulp on travis ci. We use 
 the [CreateJS Code Suites](http://createjs.com) to interface with the canvas.
+You will be able to play StickRPG [here](http://tsteinholz.github.io/StickRPG/).
+for free of course.
 
 ## TODO
 * Set up [Gratipay](https://gratipay.com/)
