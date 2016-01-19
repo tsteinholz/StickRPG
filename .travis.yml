@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "4.2.4"
+before_script:
+  - npm install -g gulp
+script: gulp
+
+notifications:
+  slack:
+    on_success: always
+  email: false

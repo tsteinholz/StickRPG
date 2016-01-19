@@ -32,3 +32,16 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Gulp
+.DS_Store
+build
+*.node
+components
+coverage
+*.orig
+.idea
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1

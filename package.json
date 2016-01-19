@@ -1,0 +1,22 @@
+{
+    "name" : "StickRPG",
+    "version" : "0.0.1",
+    "description" : "A clean room implementation of Stick RPG Complete.",
+    "keywords" : [],
+    "homepage" : "http://tsteinholz.github.io/StickRPG/",
+    "bugs": "https://github.com/tsteinholz/StickRPG/issues",
+    "license": "MIT",
+    "author" : "Thomas Steinolz  <tsteinholz@yahoo.com>",
+    "contributors" : [],
+    "files": [],
+    "repository" : {"type": "git", "url": "git://github.com/tsteinholz/StickRPG.git"},
+    "devDependencies": {
+        "gulp": "3.9.x",
+        "gulp-rename": "1.2.x",
+        "gulp-uglify": "1.5.x",
+        "coffee-script": "1.10.x"
+    },
+    "dependencies" : {
+        
+    }
+}
