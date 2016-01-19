@@ -35,7 +35,8 @@ node_modules
 
 # Gulp
 .DS_Store
-build
+build/
+dist/
 *.node
 components
 coverage
