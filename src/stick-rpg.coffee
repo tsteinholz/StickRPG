@@ -21,10 +21,11 @@ main = ->
 
   queue = new createjs.LoadQueue()
   queue.installPlugin(createjs.Sound)
-  queue.on "complete", ->
-    something = 2
-  , @
+  queue.on "complete", handleLoad, @
   queue.loadManifest manifest
 
 
   createjs.Ticker.setFPS(30)
+
+handleLoad = ->
+  something = 4
