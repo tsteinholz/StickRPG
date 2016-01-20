@@ -6,6 +6,5 @@ before_script:
 script: gulp
 
 notifications:
-  slack:
-    on_success: always
+  slack: always
   email: false
