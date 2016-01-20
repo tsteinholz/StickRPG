@@ -1,1 +1,2 @@
-init -> stage = new createjs.Stage "RPG-Canvas"
+main = ->
+  stage = new createjs.Stage 'RPG-Canvas'

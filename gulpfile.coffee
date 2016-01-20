@@ -16,6 +16,12 @@ gulp.task 'compile-coffee', ->
     .pipe rename { extname: '.min.js' }
     .pipe gulp.dest DEST + 'js/'
 
+gulp.task 'compile-javascript', ->
+  gulp.src 'src/*.js'
+    .pipe uglify()
+    .pipe rename { extname: '.min.js' }
+    .pipe gulp.dest DEST + 'js/'
+
 gulp.task 'compile-css', ->
   gulp.src 'css/*.css'
     .pipe uglifycss()
@@ -36,6 +42,7 @@ gulp.task 'copy-assets', ->
 gulp.task 'default',
 [
   'compile-coffee',
+  'compile-javascript',
   'compile-css',
   'copy-html',
   'copy-assets'
