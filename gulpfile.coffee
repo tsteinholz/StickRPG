@@ -22,4 +22,21 @@ gulp.task 'compile-css', ->
     .pipe rename { extname: '.min.css' }
     .pipe gulp.dest DEST + 'css/'
 
-gulp.task 'default', ['compile-coffee', 'compile-css']
+gulp.task 'copy-html', ->
+  gulp.src '*.html'
+    .pipe gulp.dest DEST
+
+# TODO: Copy only certain file extensions
+gulp.task 'copy-assets', ->
+  gulp.src 'assets/*'
+    .pipe gulp.dest DEST + 'assets/'
+
+# TODO : Copy over other files like imgs
+
+gulp.task 'default',
+[
+  'compile-coffee',
+  'compile-css',
+  'copy-html',
+  'copy-assets'
+]
