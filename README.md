@@ -13,7 +13,7 @@ for free of course.
 * Add Source Maps to gulp
 * Fix travis-ci builds on slack
 
-# Getting Started
+## Getting Started
 1. Fork and set up your all your git stuff locally
 2. Run `npm install` (w/ sudo if you want).
 3. Play with the code.
