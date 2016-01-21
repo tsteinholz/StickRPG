@@ -1,3 +1,3 @@
 #!/bin/bash
-cd dev
-python -m SimpleHTTPServer 8080
+cd dist/
+http-server .
