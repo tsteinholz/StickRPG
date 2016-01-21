@@ -6,7 +6,7 @@ main = ->
   # TODO : Load in assets
 
   manifest = [
-    "assets/dev/test.jpg", { src:"assets/dev/test.jpg", id:"test-screen" },
+    "assets/dev/test.jpg", { src:"assets/dev/test.jpg", id:"test" },
     "", { src:"", id:"" },
     "", { src:"", id:"" },
     "", { src:"", id:"" },
@@ -22,8 +22,8 @@ main = ->
   queue = new createjs.LoadQueue()
   queue.installPlugin(createjs.Sound)
   queue.on "complete", handleLoad, @
-  #queue.loadManifest manifest
-  queue.loadManifest ["assets/dev/test.jpg", { src:"assets/dev/test.jpg", id:"test" },]
+  queue.loadManifest manifest
+  #queue.loadManifest ["assets/dev/test.jpg", { src:"assets/dev/test.jpg", id:"test" }]
 
 
   createjs.Ticker.setFPS(30)
