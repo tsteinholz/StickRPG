@@ -52,7 +52,7 @@ gulp.task 'debug-copy-html', ->
 
 # TODO: Copy only certain file extensions
 gulp.task 'copy-assets', ->
-  gulp.src 'assets/*'
+  gulp.src 'assets/**/*'
     .pipe gulp.dest DEST + 'assets/'
 
 # TODO : Copy over other files like imgs
