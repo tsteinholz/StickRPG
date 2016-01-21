@@ -18,7 +18,7 @@ for free of course.
 2. Run `npm install` (w/ sudo if you want).
 3. Play with the code.
 4. Compile with `gulp`.
-5. Test with `./server.sh` in the root directory (and visit the url listed).
+5. Test with `./server.sh` in the root directory (visit http://192.168.1.163:8080/).
 6. Create a Pull Request and repeat!
 
 ## History
