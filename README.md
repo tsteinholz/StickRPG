@@ -9,6 +9,7 @@ You will be able to play StickRPG [here](http://tsteinholz.github.io/StickRPG/).
 for free of course.
 
 ## TODO
+* Fix the whole require weirdness and get shit working
 * Set up pre-loading
 * Play intro movie to the game
 * Start game/level architecture
@@ -22,9 +23,8 @@ for free of course.
 4. Create a Pull Request and repeat!
 
 ## History
-This game was originally build from 2003-2005 by XGenStudios. They build their
-game closed source on the flash game platform. I used to love to play stick RPG
+This game was originally build from 2003-2005 by XGenStudios. They built their
+game on the adobe flash platform for browsers. I used to play stick RPG
 all the time, I remember having all the coolest things, being super rich, strong
-successful. It was just an amazing time and to help me learn html5/js and all that
-stuff I wanted to go back to what seems like a decently simple game and expand
-upon it in an open-source way that can involve a community.
+successful. It was just an amazing time and I wanted to recreate that fun while
+learning javascript / coffeescript as well as html5 and all this other cool stuff.
