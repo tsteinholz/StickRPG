@@ -22,7 +22,7 @@
         "http-server": "0.8.x"
     },
     "dependencies" : {
-
+        "requirejs" : "2.1.x"
     },
     "engines": {
         "node": ">=0.12.0"

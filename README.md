@@ -1,4 +1,4 @@
-# StickRPG [![Build Status](https://travis-ci.org/tsteinholz/StickRPG.svg?branch=master)](https://travis-ci.org/tsteinholz/StickRPG) [![Dependencies Status](https://david-dm.org/tsteinholz/stickrpg.svg)](https://david-dm.org/tsteinholz/stickrpg) [![Dev Dependencies Status](https://david-dm.org/tsteinholz/stickrpg/dev-status.svg)](https://david-dm.org/tsteinholz/stickrpg#info=devDependencies&view=table) [![Join the chat at https://gitter.im/tsteinholz/StickRPG](https://badges.gitter.im/tsteinholz/StickRPG.svg)](https://gitter.im/tsteinholz/StickRPG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Slack Status](https://stick-rpg.herokuapp.com/badge.svg)](https://stickrpg.slack.com) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/stickrpg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# StickRPG [![Travis](https://travis-ci.org/tsteinholz/StickRPG.svg?branch=master?style=flat-square)](https://travis-ci.org/tsteinholz/StickRPG) [![Dependencies Status](https://david-dm.org/tsteinholz/stickrpg.svg)](https://david-dm.org/tsteinholz/stickrpg) [![Dev Dependencies Status](https://david-dm.org/tsteinholz/stickrpg/dev-status.svg)](https://david-dm.org/tsteinholz/stickrpg#info=devDependencies&view=table) [![Join the chat at https://gitter.im/tsteinholz/StickRPG](https://badges.gitter.im/tsteinholz/StickRPG.svg)](https://gitter.im/tsteinholz/StickRPG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Slack Status](https://stick-rpg.herokuapp.com/badge.svg)](https://stickrpg.slack.com) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/stickrpg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 A [clean room](https://en.wikipedia.org/wiki/Clean_room_design) implementation of
 [Stick RPG Complete](http://www.xgenstudios.com/game.php?keyword=stickrpg). This
@@ -9,17 +9,22 @@ You will be able to play StickRPG [here](http://tsteinholz.github.io/StickRPG/).
 for free of course.
 
 ## TODO
+* Set up pre-loading
+* Play intro movie to the game
+* Start game/level architecture
+* Start creating assets/animations
 * Set up travis-ci to push the build folder for all commits with tags to the gh-pages branch
-* Add Source Maps to gulp
-* Fix travis-ci builds on slack
 
 ## Getting Started
 1. Fork and set up your all your git stuff locally
-2. Run `npm install` (w/ sudo if you want).
-3. Play with the code.
-4. Compile with `gulp`.
-5. Test with `./server.sh` in the root directory (visit http://192.168.1.163:8080/).
-6. Create a Pull Request and repeat!
+2. Play with the code.
+3. Test with `./server.sh` in the root directory.
+4. Create a Pull Request and repeat!
 
 ## History
-TODO
+This game was originally build from 2003-2005 by XGenStudios. They build their
+game closed source on the flash game platform. I used to love to play stick RPG
+all the time, I remember having all the coolest things, being super rich, strong
+successful. It was just an amazing time and to help me learn html5/js and all that
+stuff I wanted to go back to what seems like a decently simple game and expand
+upon it in an open-source way that can involve a community.

@@ -1,3 +1,5 @@
 #!/bin/bash
-cd dist/
-http-server .
+rm dist/ -r
+npm install
+gulp
+http-server dist/

@@ -22,48 +22,16 @@
 # SOFTWARE.
 ################################################################################
 
-stage = null
-queue = null
+requirejs = require 'requirejs'
 
-main = ->
-  ##############################################################################
-  # Initailize the Game
-  ##############################################################################
+Initailize = ->
 
-  stage = new createjs.Stage 'RPG-Canvas'
+  requirejs.config
+    nodeRequire: require
+    paths: "createjs" : "https://code.createjs.com/createjs-2015.11.26.min.js"
 
-  stage.mouseEventEnabled = true
-
-  # Load Assets
-  manifest = [
-    "assets/dev/test.jpg", { src:"assets/dev/test.jpg", id:"test-screen" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" },
-    "", { src:"", id:"" }
-  ]
-
-  queue = new createjs.LoadQueue()
-  queue.installPlugin(createjs.Sound)
-  queue.on "complete", handleLoadEvent, @
-  queue.loadManifest manifest
-
-  createjs.Ticker.setFPS 30
-  createjs.Ticker.addEventListener "tick", handleTickEvent
-
-handleLoadEvent = ->
-  image = queue.getResult "test-screen"
-  stage.addChild image
-  # TODO : Handle event loading
-
-handleTickEvent ->
-  stage.update
-
-handleClickEvent = ->
-  # TODO : Handle click event
+  define (require) ->
+    # Start up our stage class, passing on the canvas
+    GameWrapper = require "GameWrapper"
+    canvas = document.getElementById("RPG-Canvas")
+    gameObject = new GameWrapper(canvas)
