@@ -1,4 +1,4 @@
-# StickRPG [![Build Status](https://travis-ci.org/tsteinholz/StickRPG.svg?branch=master)](https://travis-ci.org/tsteinholz/StickRPG) [![Dependencies Status](https://david-dm.org/tsteinholz/stickrpg.svg)](https://david-dm.org/tsteinholz/stickrpg) [![Dev Dependencies Status](https://david-dm.org/tsteinholz/stickrpg/dev-status.svg)](https://david-dm.org/tsteinholz/stickrpg#info=devDependencies&view=table) [![Join the chat at https://gitter.im/tsteinholz/StickRPG](https://badges.gitter.im/tsteinholz/StickRPG.svg)](https://gitter.im/tsteinholz/StickRPG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Slack Status](https://stick-rpg.herokuapp.com/badge.svg)](https://stickrpg.slack.com) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/stickrpg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# StickRPG [![Build Status](https://travis-ci.org/tsteinholz/StickRPG.svg?branch=master)](https://travis-ci.org/tsteinholz/StickRPG) [![Dependencies Status](https://david-dm.org/tsteinholz/stickrpg.svg)](https://david-dm.org/tsteinholz/stickrpg) [![Dev Dependencies Status](https://david-dm.org/tsteinholz/stickrpg/dev-status.svg)](https://david-dm.org/tsteinholz/stickrpg#info=devDependencies&view=table) [![Join the chat at https://gitter.im/tsteinholz/StickRPG](https://badges.gitter.im/tsteinholz/StickRPG.svg)](https://gitter.im/tsteinholz/StickRPG?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Slack Status](https://stick-rpg.herokuapp.com/badge.svg)](https://stickrpg.slack.com)
 
 A [clean room](https://en.wikipedia.org/wiki/Clean_room_design) implementation of
 [Stick RPG Complete](http://www.xgenstudios.com/game.php?keyword=stickrpg). This
@@ -8,7 +8,7 @@ the [CreateJS Code Suites](http://createjs.com) to interface with the canvas.
 You will be able to play StickRPG [here](http://tsteinholz.github.io/StickRPG/).
 for free of course.
 
-## TODO
+## TODO [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tsteinholz/stickrpg/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 * Fix the whole require weirdness and get shit working
 * Set up pre-loading
 * Play intro movie to the game
