@@ -36,7 +36,7 @@ main = ->
 
   # Load Assets
   manifest = [
-    "assets/dev/test.jpg", { src:"assets/dev/test.jpg", id:"test-screen" },
+    "assets/dev/test.jpg", { src:"assets/img/test.jpg", id:"test-screen" },
     "", { src:"", id:"" },
     "", { src:"", id:"" },
     "", { src:"", id:"" },
