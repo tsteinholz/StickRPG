@@ -10,12 +10,26 @@ sourcemaps = require 'gulp-sourcemaps'
 
 DEST = 'dist/'
 
+################################################################################
+# Production Tasks
+################################################################################
+
 gulp.task 'compile-coffee', ->
   gulp.src 'src/*.coffee'
     .pipe coffee({bare: true}).on 'error', gutil.log
     .pipe uglify()
     .pipe rename { extname: '.min.js' }
     .pipe gulp.dest DEST + 'js/'
+
+gulp.task 'compile-javascript', ->
+  gulp.src '**/*.js'
+    .pipe sourcemaps.init()
+    .pipe sourcemaps.write 'maps/'
+    .pipe gulp.dest DEST + 'js/'
+
+################################################################################
+# Development Tasks
+################################################################################
 
 gulp.task 'debug-compile-coffee', ->
   gulp.src 'src/*.coffee'
@@ -24,17 +38,15 @@ gulp.task 'debug-compile-coffee', ->
     .pipe sourcemaps.write 'maps/'
     .pipe gulp.dest DEST + 'js/'
 
-gulp.task 'compile-javascript', ->
-  gulp.src 'src/*.js'
-    .pipe sourcemaps.init()
-    .pipe sourcemaps.write 'maps/'
-    .pipe gulp.dest DEST + 'js/'
-
 gulp.task 'debug-compile-javascript', ->
-  gulp.src 'src/*.js'
+  gulp.src '**/*.js'
     .pipe uglify()
     .pipe rename { extname: '.min.js' }
     .pipe gulp.dest DEST + 'js/'
+
+################################################################################
+# Common Tasks
+################################################################################
 
 gulp.task 'compile-css', ->
   gulp.src 'css/*.css'

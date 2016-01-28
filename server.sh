@@ -1,5 +1,5 @@
 #!/bin/bash
-rm dist/ -r
+rm dist/ -rf
 npm install
 gulp
 http-server dist/
